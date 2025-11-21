@@ -99,3 +99,30 @@ tbody td {
 tbody tr:nth-child(even) {
   background: #f7f7f7;
 }
+
+.formulario-contacto {
+    margin: 0 auto; /* Centra el formulario */
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: left; /* Mantiene los textos alineados */
+}
+
+.formulario-contacto input {
+    width: 100%;
+    padding: 8px;
+}
+
+.formulario-contacto button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Botón ancho */
+}
+
+.formulario-contacto button:hover {
+    background-color: #45a049;
+}
